@@ -26,9 +26,11 @@ function sumNoDuplicates(arr) {//1
         let uniqueArr = [];//2
         let sum = 0;//3
         arr.forEach(num => {//4
+                
             if (arr.indexOf(num) === arr.lastIndexOf(num)) {//5
                 uniqueArr.push(num);//6
                 sum += num;//7
+                    
             }
         });
         return sum;
