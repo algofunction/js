@@ -10,3 +10,10 @@ function heron(a, b, c) {
     var s = (a + b + c) / 2;
     return Math.sqrt(s * (s - a) * (s - b) * (s - c)); 
 }
+
+var a=3;
+var b=3;
+var c=8;
+
+var area = heron(a, b, c);
+console.log(area);
